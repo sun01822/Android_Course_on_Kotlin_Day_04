@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="text1">Enter email</string>
+    <string name="text2">Enter password</string>
+    <string name="text3">Enter first name</string>
+    <string name="text4">Enter last name</string>
+    <string name="submit">Submit</string>
+    <string name="msg1">enter email</string>
+    <string name="msg2">enter password</string>
+    <string name="msg3">enter valid email</string>
+    <string name="msg4">enter strong password</string>
+</resources>

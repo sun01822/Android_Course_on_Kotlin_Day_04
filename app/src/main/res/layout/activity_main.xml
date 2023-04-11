@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/text3"
+            android:drawableStart="@drawable/custom_first_name_icon"
+            android:padding="10dp"
+            android:drawablePadding="8dp"
+            android:autofillHints="no"
+            android:inputType="text"
+            android:background="@drawable/custom_background"
+            android:imeOptions="actionNext"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/text4"
+            android:drawableStart="@drawable/custom_first_name_icon"
+            android:padding="10dp"
+            android:drawablePadding="8dp"
+            android:autofillHints="no"
+            android:inputType="text"
+            android:background="@drawable/custom_background"
+            android:imeOptions="actionNext"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/custom_background"
+            android:entries="@array/religion"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/text1"
+            android:drawableStart="@drawable/custom_email_icon"
+            android:padding="10dp"
+            android:drawablePadding="8dp"
+            android:autofillHints="no"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/custom_background"
+            android:imeOptions="actionNext"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/text2"
+            android:drawableStart="@drawable/custom_lock_icon"
+            android:padding="10dp"
+            android:drawablePadding="8dp"
+            android:autofillHints="no"
+            android:inputType="textPassword"
+            android:background="@drawable/custom_background"
+            android:imeOptions="actionDone"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/submit"
+            android:textStyle="bold"
+            android:background="@drawable/custom_background"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
